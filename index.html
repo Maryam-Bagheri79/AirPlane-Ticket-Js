@@ -4,8 +4,55 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Document</title>
   </head>
-  <body></body>
-  <script src="main.js"></script>
+  <body>
+    <div class="container">
+      <div class="input col-md-6">
+        <input type="text" class="fName valueInput" placeholder="First Name" />
+      </div>
+      <div class="input col-md-6">
+        <input type="text" class="lName valueInput" placeholder="Last Name" />
+      </div>
+      <div class="input col-md-6">
+        <input
+          type="text"
+          class="pNumber valueInput"
+          placeholder="Phone Number"
+        />
+      </div>
+      <div class="input col-md-6">
+        <input
+          type="email"
+          class="email valueInput"
+          name=""
+          id=""
+          placeholder="Email"
+        />
+      </div>
+      <div class="input col-md-6">
+        <select class="selectInput valueInput" id="selectInput">
+          <option value="" hidden>Countreis</option>
+          <option value="Iran">Iran</option>
+          <option value="Turkey">Turkey</option>
+          <option value="Usa">Usa</option>
+          <option value="German">German</option>
+        </select>
+      </div>
+      <div class="input col-md-6">
+        <select class="selectInput valueInput citySelect">
+          <option value="-1">Cities...</option>
+        </select>
+      </div>
+      <div class="input col-md-12">
+        <button class="btn">Ticket Registration</button>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/main.js"></script>
 </html>
